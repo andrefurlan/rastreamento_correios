@@ -39,7 +39,7 @@ fs.readFile('correios.txt', 'utf8', (err, data) => {
                 if (err) console.log(err);
                 fs.writeFile('file.csv', csv, function(err) {
                     if (err) throw err;
-                    console.log('file saved');
+                    console.log('arquivo salvo como file.csv');
                 });
             });
         })
